@@ -24,7 +24,7 @@ with left_column:
 
 with right_column:
     st.write("MST scale offers a more holistic view that can be applied across diverse demographics, providing insights into skin sensitivity and adaptability")
-    st.image('MST_SKIN_TONE_SCALE.png', caption="Monk skin tone(MST) scale")
+    #st.image('MST_SKIN_TONE_SCALE.png', caption="Monk skin tone(MST) scale")
     if image is not None:
         fig, ax = plt.subplots(figsize=(8, 4))
         colors = ('red', 'green', 'blue')
